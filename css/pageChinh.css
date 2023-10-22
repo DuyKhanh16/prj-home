@@ -1,0 +1,109 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+.header{
+    text-align: center;
+    background-color:rgb(194, 92, 20);
+}
+.colorText{
+    color: blanchedalmond;
+}
+.header__info{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 60px;
+}
+.logo{
+    top: 0;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 40px;
+    background-color:rgb(194, 92, 20) ;
+}
+.nameShop{
+    text-decoration: none;
+    font-size: 40px;
+margin-left: 42%;
+    font-weight:500;
+    color: blanchedalmond;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+.icon{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.link{
+   color: black;
+   text-decoration: none;
+   font-weight: 500;
+   width: 200px;
+   text-align: center;
+  padding-top: 5px;
+}
+.link:hover{
+    text-decoration:underline;
+}
+.nav{
+    background-color:white;
+    height: 40px;
+    justify-content: center;
+}
+.icon__magin{
+    margin-left: 20px;
+}
+.cart{
+    position: relative;
+}
+.count{
+   position: absolute;
+   font-weight: 700;
+   color:blanchedalmond;
+   opacity: 0.7;
+  right: 2px;
+  top: -5px;
+}
+.productList{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.list{
+text-decoration:underline;
+font-size: 20px;
+color: gray;
+margin-left: 20px;
+}
+
+.item{
+    width: 350px;
+    height: 430px;
+    background-color: lightgray;
+    margin: 10px;
+    border-radius: 10px;
+}
+.byItem{
+ background-color: chocolate;
+ border-radius: 10px;
+ width: 100px;
+ margin-left: 50px;
+}
+footer{
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__left{
+    margin-left: 30px;
+    text-align: center;
+}
+.footer__right{
+    text-align: center;
+    margin-right: 30%;
+    margin-top: 100px;
+}
